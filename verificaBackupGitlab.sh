@@ -14,7 +14,7 @@ diaAtual=$(date +%d)
 STARTDATE=$(date +"%Y-%m-%d %H:%M:%S")
 
 PATH=${PATH}:/Users/admin/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/admin/.rbenv/bin
-SMB_SERVER="//j328321473:Lognew48@10.243.124.23/GitLab"
+SMB_SERVER="//usuario:senha@10.243.124.23/GitLab"
 DCBKPFILEPATH=/var/opt/gitlab/backups
 BKPFILEPATH=/Users/admin/Desktop/docker/backups/gitlab/mobile
 SMBSHAREPATH=/Users/admin/Desktop/docker/backups/share/BackupGIT
